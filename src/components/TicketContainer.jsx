@@ -73,7 +73,7 @@ const TicketContainer = () => {
         <div className='controlAction'>
         <div className='Action'>
           <label htmlFor="grouping">Grouping:</label>
-          <select id="grouping" value={selectedGrouping} onChange={handleGroupingChange}>
+          <select className='drop' id="grouping" value={selectedGrouping} onChange={handleGroupingChange}>
             <option value="status">Status</option>
             <option value="priority">Priority</option>
             <option value="user">User</option>
@@ -81,7 +81,7 @@ const TicketContainer = () => {
           </div>
           <div className='Action' >
           <label htmlFor="ordering">Ordering:</label>
-          <select id="ordering" value={selectedOrdering} onChange={handleOrderingChange}>
+          <select className='drop' id="ordering" value={selectedOrdering} onChange={handleOrderingChange}>
             <option value="priority">Priority</option>
             <option value="title">Title</option>
           </select>
