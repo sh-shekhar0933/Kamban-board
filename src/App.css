@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.nav{
+ 
+  padding:30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+ display: flex;
+ justify-content:space-between;
+ align-items: baseline;
+  background-color: aliceblue;
+  height: 100vh;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:30%;
+  margin:30px;
+}
+.ticket-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px ;
+  background-color:white;
+  box-shadow: -2px 2px 2px -2px rgb(0,0,0,0.5);
 }
 
-.App-link {
-  color: #61dafb;
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ticket-tags {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
+  
+}
+
+.ticket-tag {
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 3px;
+}
+.type-list{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap:12px;
+  margin:20px;
+  
+  
+}
+.ticket-id{
+  color:gray;
+}
+.ticket-tag{
+  color:gray;
+}
+.controlAction{
+
+  box-shadow:-1px -1px 1px 1px rgb(0,0,0,0.5);
+  
+  width:20%;
+  padding:12px;
+  position:absolute;
+  top:52px;
+  z-index:1;
+  opacity: 1;
+  background-color: white;
+  border-radius: 12px;
+  
+}
+
+.Action{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Display
+{
+  margin:0 8px;
+
+}
+.btn {
+  background: #ededed;
+  background-image: -webkit-linear-gradient(top, #ededed, #ededed);
+  background-image: -moz-linear-gradient(top, #ededed, #ededed);
+  background-image: -ms-linear-gradient(top, #ededed, #ededed);
+  background-image: -o-linear-gradient(top, #ededed, #ededed);
+  background-image: linear-gradient(to bottom, #ededed, #ededed);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #240424;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin:12px 8px;
+}
+h1{
+  margin:0 20px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+.container{
+  background-color: rgb(230, 237, 244);
+  height: 100vh;
+
+}
+h2{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  font-size:16px;
+}
+.length{
+  color: grey;
+  margin:0px 8px;
+}
+.prio{
+  margin:0px 8px;
+}
+.profile{
+  border-radius:50%;
+  margin-top:4px;
+  margin-right: 8px;
 }
